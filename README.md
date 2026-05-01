@@ -15,23 +15,6 @@ The project follows a standard time-series analysis methodology using Python lib
 3.  **Training & Forecasting:** The SARIMA model is trained on a portion of the historical data and then used to forecast future prices.
 4.  **Evaluation:** The forecasted prices are compared against the actual data using RMSE and MAE to assess the model's accuracy.
 
-## How to Use
-1.  **Clone the repository:**
-    ```bash
-    git clone [https://github.com/your-username/your-repo-name.git](https://github.com/your-username/your-repo-name.git)
-    cd your-repo-name
-    ```
-2.  **Install dependencies:**
-    The project requires standard data science libraries. You can install them using pip:
-    ```bash
-    pip install pandas numpy statsmodels matplotlib seaborn
-    ```
-3.  **Run the notebook:**
-    Open the `Pythoncode.ipynb` notebook in Jupyter or a similar environment to run the code and generate the forecasts.
-    ```bash
-    jupyter notebook Pythoncode.ipynb
-    ```
-
 ## Files in this Repository
 * `Pythoncode.ipynb`: The main Jupyter Notebook containing all the code for data analysis, modeling, and forecasting.
 * `data/`: A directory to store your historical commodity price data files (e.g., `gold_prices.csv`, `oil_prices.csv`).
